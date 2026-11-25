@@ -157,10 +157,6 @@ asm(".global sceVideoOutAddBufferAnisoPrivilege\n"
     ".type sceVideoOutAddBufferAnisoPrivilege @function\n"
     "sceVideoOutAddBufferAnisoPrivilege:\n");
 
-asm(".global sceVideoOutAddBufferAttributeOption\n"
-    ".type sceVideoOutAddBufferAttributeOption @function\n"
-    "sceVideoOutAddBufferAttributeOption:\n");
-
 asm(".global sceVideoOutAddBufferHdrPrivilege\n"
     ".type sceVideoOutAddBufferHdrPrivilege @function\n"
     "sceVideoOutAddBufferHdrPrivilege:\n");
@@ -177,17 +173,9 @@ asm(".global sceVideoOutAddDriver\n"
     ".type sceVideoOutAddDriver @function\n"
     "sceVideoOutAddDriver:\n");
 
-asm(".global sceVideoOutAddFlipEvent\n"
-    ".type sceVideoOutAddFlipEvent @function\n"
-    "sceVideoOutAddFlipEvent:\n");
-
 asm(".global sceVideoOutAddOutputModeEvent\n"
     ".type sceVideoOutAddOutputModeEvent @function\n"
     "sceVideoOutAddOutputModeEvent:\n");
-
-asm(".global sceVideoOutAddPreVblankStartEvent\n"
-    ".type sceVideoOutAddPreVblankStartEvent @function\n"
-    "sceVideoOutAddPreVblankStartEvent:\n");
 
 asm(".global sceVideoOutAddS3dHmdPrivilege\n"
     ".type sceVideoOutAddS3dHmdPrivilege @function\n"
@@ -201,25 +189,9 @@ asm(".global sceVideoOutAddStereoBuffer\n"
     ".type sceVideoOutAddStereoBuffer @function\n"
     "sceVideoOutAddStereoBuffer:\n");
 
-asm(".global sceVideoOutAddVblankEvent\n"
-    ".type sceVideoOutAddVblankEvent @function\n"
-    "sceVideoOutAddVblankEvent:\n");
-
 asm(".global sceVideoOutAdjustColor2_\n"
     ".type sceVideoOutAdjustColor2_ @function\n"
     "sceVideoOutAdjustColor2_:\n");
-
-asm(".global sceVideoOutAdjustColor_\n"
-    ".type sceVideoOutAdjustColor_ @function\n"
-    "sceVideoOutAdjustColor_:\n");
-
-asm(".global sceVideoOutColorSpaceConversionSettingsSetDefaultSdrToHdrConversion_\n"
-    ".type sceVideoOutColorSpaceConversionSettingsSetDefaultSdrToHdrConversion_ @function\n"
-    "sceVideoOutColorSpaceConversionSettingsSetDefaultSdrToHdrConversion_:\n");
-
-asm(".global sceVideoOutColorSpaceConversionSettingsSetSdrToHdrConversion_\n"
-    ".type sceVideoOutColorSpaceConversionSettingsSetSdrToHdrConversion_ @function\n"
-    "sceVideoOutColorSpaceConversionSettingsSetSdrToHdrConversion_:\n");
 
 asm(".global sceVideoOutConfigureLayout\n"
     ".type sceVideoOutConfigureLayout @function\n"
@@ -297,10 +269,6 @@ asm(".global sceVideoOutDeleteDriver\n"
     ".type sceVideoOutDeleteDriver @function\n"
     "sceVideoOutDeleteDriver:\n");
 
-asm(".global sceVideoOutDeleteFlipEvent\n"
-    ".type sceVideoOutDeleteFlipEvent @function\n"
-    "sceVideoOutDeleteFlipEvent:\n");
-
 asm(".global sceVideoOutDeleteOutputModeEvent\n"
     ".type sceVideoOutDeleteOutputModeEvent @function\n"
     "sceVideoOutDeleteOutputModeEvent:\n");
@@ -377,22 +345,6 @@ asm(".global sceVideoOutGetDeviceInfoEx_\n"
     ".type sceVideoOutGetDeviceInfoEx_ @function\n"
     "sceVideoOutGetDeviceInfoEx_:\n");
 
-asm(".global sceVideoOutGetEventCount\n"
-    ".type sceVideoOutGetEventCount @function\n"
-    "sceVideoOutGetEventCount:\n");
-
-asm(".global sceVideoOutGetEventData\n"
-    ".type sceVideoOutGetEventData @function\n"
-    "sceVideoOutGetEventData:\n");
-
-asm(".global sceVideoOutGetEventId\n"
-    ".type sceVideoOutGetEventId @function\n"
-    "sceVideoOutGetEventId:\n");
-
-asm(".global sceVideoOutGetFlipStatus\n"
-    ".type sceVideoOutGetFlipStatus @function\n"
-    "sceVideoOutGetFlipStatus:\n");
-
 asm(".global sceVideoOutGetHdmiKsvList_\n"
     ".type sceVideoOutGetHdmiKsvList_ @function\n"
     "sceVideoOutGetHdmiKsvList_:\n");
@@ -412,10 +364,6 @@ asm(".global sceVideoOutGetHdmiRawEdid_\n"
 asm(".global sceVideoOutGetMonitorInfo\n"
     ".type sceVideoOutGetMonitorInfo @function\n"
     "sceVideoOutGetMonitorInfo:\n");
-
-asm(".global sceVideoOutGetOutputStatus\n"
-    ".type sceVideoOutGetOutputStatus @function\n"
-    "sceVideoOutGetOutputStatus:\n");
 
 asm(".global sceVideoOutGetPipelineStatus\n"
     ".type sceVideoOutGetPipelineStatus @function\n"
@@ -484,9 +432,6 @@ asm(".global sceVideoOutRazorRemoveCallback\n"
 asm(".global sceVideoOutRegisterBufferAttribute\n"
     ".type sceVideoOutRegisterBufferAttribute @function\n"
     "sceVideoOutRegisterBufferAttribute:\n");
-asm(".global sceVideoOutRegisterBuffers2\n"
-    ".type sceVideoOutRegisterBuffers2 @function\n"
-    "sceVideoOutRegisterBuffers2:\n");
 
 asm(".global sceVideoOutRegisterStereoBuffers\n"
     ".type sceVideoOutRegisterStereoBuffers @function\n"
@@ -495,10 +440,6 @@ asm(".global sceVideoOutRegisterStereoBuffers\n"
 asm(".global sceVideoOutRemoveBuffer\n"
     ".type sceVideoOutRemoveBuffer @function\n"
     "sceVideoOutRemoveBuffer:\n");
-
-asm(".global sceVideoOutRemoveBufferAttributeOption\n"
-    ".type sceVideoOutRemoveBufferAttributeOption @function\n"
-    "sceVideoOutRemoveBufferAttributeOption:\n");
 
 asm(".global sceVideoOutSetBlankAfterResume\n"
     ".type sceVideoOutSetBlankAfterResume @function\n"
@@ -519,10 +460,6 @@ asm(".global sceVideoOutSetDisplayEventPosition\n"
 asm(".global sceVideoOutSetGamutMetadata_\n"
     ".type sceVideoOutSetGamutMetadata_ @function\n"
     "sceVideoOutSetGamutMetadata_:\n");
-
-asm(".global sceVideoOutSetGlobalBlendSpace\n"
-    ".type sceVideoOutSetGlobalBlendSpace @function\n"
-    "sceVideoOutSetGlobalBlendSpace:\n");
 
 asm(".global sceVideoOutSetToneMap_\n"
     ".type sceVideoOutSetToneMap_ @function\n"
